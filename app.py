@@ -10,10 +10,10 @@ width,height=1000,500
 # The Image.ANTIALIAS filter is used to make the resized image look smooth.-->to maintain the quality after resizing
 # Image.LANCZOS in the updated versions of the library (Pillow, the friendly PIL fork).
 
-my_img1=ImageTk.PhotoImage(Image.open("images/1.jpg").resize((width,height),Image.LANCZOS))
-my_img2=ImageTk.PhotoImage(Image.open("images/2.jpg").resize((width,height),Image.LANCZOS))
+my_img1=ImageTk.PhotoImage(Image.open("images/1.png").resize((width,height),Image.LANCZOS))
+my_img2=ImageTk.PhotoImage(Image.open("images/2.png").resize((width,height),Image.LANCZOS))
 my_img3=ImageTk.PhotoImage(Image.open("images/3.jpg").resize((width,height),Image.LANCZOS))
-my_img4=ImageTk.PhotoImage(Image.open("images/4.jpg").resize((width,height),Image.LANCZOS))
+my_img4=ImageTk.PhotoImage(Image.open("images/4.png").resize((width,height),Image.LANCZOS))
 my_img5=ImageTk.PhotoImage(Image.open("images/5.jpg").resize((width,height),Image.LANCZOS))
 my_img6=ImageTk.PhotoImage(Image.open("images/6.jpg").resize((width,height),Image.LANCZOS))
 
